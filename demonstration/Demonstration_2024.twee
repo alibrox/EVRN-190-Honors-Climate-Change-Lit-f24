@@ -1,0 +1,135 @@
+:: StoryTitle
+Demonstration_2024
+
+
+:: StoryData
+{
+  "ifid": "FB80EC25-24AF-465C-83EE-D32159051CF0",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Start Here",
+  "zoom": 1
+}
+
+
+:: \ images {"position":"1000,500","size":"100,100"}
+Having images on your page can enhance its appeal. 
+
+Let's try and add an [[image->addimage]].
+
+
+:: Multiplelinks {"position":"750,0","size":"100,100"}
+You can have any number of links on a page.
+
+[[Link1->linkdemo]]
+[[Link2->linkdemo]]
+[[Link3->linkdemo]]
+[[Link4->linkdemo]]
+[[Link5->linkdemo]]
+
+
+:: Proceed {"position":"900,225","size":"100,100"}
+In TWINE, you can use HTML and CSS and Javascrript, which are the languages commonly used to create websites.
+
+To see a page with bold text, click [[here->boldtext]].
+
+To see a page with italics text, click [[here->italics]].
+
+To see a page with a yellow background, click [[here->background]].
+
+To see a page with an image, click [[here-> images]].
+
+Are you done learning how to jazz up your pages? Next learn about [[saving->twinefiles1]] your project.
+
+
+
+
+:: Start {"position":"625,125","size":"100,100"}
+TWINE projects take the form of a series of website pages that you navigate using [[links->Multiplelinks]].
+
+
+:: Start Here {"position":"350,50","size":"100,100"}
+Welcome to my TWINE project! 
+
+I have designed this project to showcase how TWINE works.
+
+[[Start]]
+
+
+
+
+
+:: addimage {"position":"1000,625","size":"100,100"}
+To display an image, you can use standard HTML commands.
+
+One easy way to get an image and the proper HTML command is to visit Wikipedia. 
+
+I went to the 'climate' page and clicked on an <a href="https://en.wikipedia.org/wiki/Climate#/media/File:ISS-48_Towering_cumulonimbus_and_other_clouds_over_the_Earth_(2).jpg" target="_blank">image</a>to get further information.
+
+Do you see the more details button? Click that and then look for the 'Use this file' link. It should open a window to display the code you need to 'embed' the image in your TWINE project. Copy the whole code and drop it straight into your page. 
+
+<a title="NASA, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:ISS-48_Towering_cumulonimbus_and_other_clouds_over_the_Earth_(2).jpg"><img width="512" alt="From ISS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/ISS-48_Towering_cumulonimbus_and_other_clouds_over_the_Earth_%282%29.jpg/512px-ISS-48_Towering_cumulonimbus_and_other_clouds_over_the_Earth_%282%29.jpg?20160803171716"></a>
+
+To go back and try and another topic, click [[here->Proceed]]
+
+
+:: background {"position":"575,350","size":"100,100"}
+(enchant:?page,(bg:yellow))In the text editor window, you can add a command to adjust the background color. 
+
+Yellow make the text pretty hard to read, so let's move to a normal page to explain how this [[works->changebackground]]/
+
+
+
+
+:: boldtext {"position":"775,375","size":"100,100"}
+Here is some text in <b>bold </b>.
+
+The way that this is achieved is simply by inserting the standard HTML codes into the text.
+
+If you would like to know more, follow this <a href="https://www.w3schools.com/tags/tag_b.asp" target="_blank">link</a>.
+
+To go back and try and another topic, click [[here->Proceed]]
+
+
+:: changebackground {"position":"575,475","size":"100,100"}
+When you are editing your TWINE page, notice that there is a menu of options above the edit box. This includes a multicolored icon. If you click on it and follow the dialogue options, it will construct a command that you can insert into your page that will change the background color.
+
+If you want additional details on the commands, there is an <a "https://twine2.neocities.org/#macro_background" target="_blank">online manual</a>.
+
+Note that the manual is not for TWINE specifically, but rather for the Harlowe storyformat, which is one of several different systems of commands that you can use in TWINE. I am quite fond of <a "https://www.motoslave.net/sugarcube/2/" target="_blank">SugarCube format</a>, which is another option for your projects.
+
+To go back and try and another topic, click [[here->Proceed]]Your Text Here
+
+
+:: italics {"position":"1150,350","size":"100,100"}
+Here is some text that is in <i>italics</i>.
+
+The way that this is achieved is simply by inserting the standard HTML codes into the text.
+
+if you would like to know more, follow this <a https://www.w3schools.com/tags/tag_i.asp" target="_blank">link</a>.
+
+To go back and try and another topic, click [[here->Proceed]]
+
+
+:: linkdemo {"position":"750,125","size":"100,100"}
+Did you think you were going somewhere cool? Uhn... no. All the links on the previous page just come here. But you could have designed them to take you to different pages.
+
+To construct a link you wrap the text you want to serve as the link in double square brackets. By default, the text in the square brackets will be the name of the page where the link will take your reader. However, you can conceal your page names: place a dash and an angle braket into the link command. 
+
+So you might do something link -- 'impactful->Proceed'. In this case, your reader would see the word 'impactful', but the page would actually be called 'Proceed'.
+
+Now that you understand how to construct links, let's work on making your pages and texts more [[impactful->Proceed]].
+
+
+:: twinefiles1 {"position":"775,575","size":"100,100"}
+Let's say you've completed your TWINE project! It is amazing! How do you share it with the world?
+
+You have two options. 
+
+In the TWINE software, you should see a menu bar at the top. You need to go to the 'Build' section. Once you click on the 'Build' tab you should see the option to 'Publish to File' and 'Export As Twee'.
+
+
+
+
+
+
